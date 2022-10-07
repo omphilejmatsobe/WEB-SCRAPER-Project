@@ -9,7 +9,7 @@ const app = express()
 const article = []
 
 app.get('/',(req,res) =>{ 
-    res.json('welcome to my climate chage api')
+    res.json('welcome to my climate change api')
 })
 
 app.get('/news',(req, res)=>{
